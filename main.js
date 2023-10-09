@@ -265,7 +265,7 @@ if (config.Discord && !config.Discord.disabled) {
         useProxyURL: options.useProxyURL,
     };
 
-    const discordHandler = new DiscordMessageHandler(discordClient);
+    const discordHandler = new DiscordMessageHandler(discordClient, options2);
     pluginManager.handlers.set('Discord', discordHandler);
     pluginManager.handlerClasses.set('Discord', {
         object: DiscordMessageHandler,
