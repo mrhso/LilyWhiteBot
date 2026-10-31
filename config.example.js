@@ -142,8 +142,6 @@ module.exports = {
                        <T> [nick] Re replyto 「repliedmessage」: message
                        <T> [nick] Fwd fwdfrom: message
 
-                       （兩群互聯不會出現用於標識軟體的「<T>」）
-
                        可用顏色：white、black、navy、green、red、brown、purple、
                                olive、yellow、lightgreen、teal、cyan、blue、pink、gray、silver
                     */
